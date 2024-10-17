@@ -1,0 +1,245 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #15151f;
+    padding: 10px 20px;
+    height: 50px;
+    gap: 200px;
+}
+.navbar .logo {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.navbar ul li a:hover {
+    color: blue;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661414415246-3e502e2fb241?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFuYWdlbWVudHxlbnwwfHwwfHx8MA%3D%3D"); 
+    background-size: cover;
+    background-position: center;
+}
+.content {
+   
+    border-radius: 30px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    width: 40%;
+    height: 80%;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content h1 {
+    margin: 0;
+    margin-left: -150px;
+    font-size: 3rem;
+    text-align: left;
+    
+}
+.content p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.content button {
+  margin-left: -300px;
+  margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 1em;
+    color: #041e39;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.content button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.second {
+    width: 100%;
+    max-width: 100%;
+    height: 90vh;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.two{
+    max-width: 900px;
+    padding: 145px;
+    padding-left: 300px;
+}
+.two h1 {
+    font-size: 3em;
+    color: #333;
+}
+.two h4 {
+    font-size: 1em;
+    color: #1c5cd4;
+}
+.two p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+ .signature {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #323131;
+    text-align: left;
+}
+
+
+
+.third {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header3 {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+.header3 h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+.header3 h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-left: 100px;
+     padding-right: 100px;
+}
+.section3 .box3 {
+    width: 48%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section3 .box3 h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-left: 20px;
+}
+.section3 .box3 p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+.section3 .box3 img {
+   
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.divb{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+
+.fifth button {
+   
+      padding: 10px 40px;
+      font-size: 1em;
+      color: #041e39;
+      background-color: white;
+      border-radius: 30px;
+
+      border: 1px solid black;
+      cursor: pointer;
+  }
+
+
+
+
+.footer {
+    background-color:rgb(2, 2, 54);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+.footer h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 48px;
+}
+.footer p {
+    margin: 10px auto;
+    line-height: 1.6em;
+    max-width: 600px;
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.social-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #23395B;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.social-buttons button:hover {
+    background-color: #1a2a3b;
+}
